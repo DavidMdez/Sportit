@@ -508,13 +508,14 @@
 
 .items-logos div {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   justify-content: center;
   align-items: center;
 }
 
 .items-logos div a {
-  margin: auto;
+  display: flex;
+  align-items: center;
 }
 
 .container-list-footer ul {
