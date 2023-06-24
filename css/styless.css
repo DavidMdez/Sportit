@@ -510,6 +510,11 @@
   display: flex;
   gap: 10px;
   justify-content: center;
+  align-items: center;
+}
+
+.items-logos div a {
+  margin: auto;
 }
 
 .container-list-footer ul {
@@ -530,11 +535,11 @@
   .container-footer section {
     flex-direction: column-reverse;
     justify-content: center;
+    gap: 24px;
   }
 
   .container-footer section p:first-child {
     display: flex;
-    margin-top: 24px;
   }
 
   .container-footer section p:last-child {
@@ -554,13 +559,13 @@
   }
 
   .items-logos div {
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
+    gap: 0;
   }
 
   .form-input {
     width: calc(100vw - 64px);
-    margin-bottom: 24px;
   }
 
   .form-input input {
