@@ -530,11 +530,11 @@
   .container-footer section {
     flex-direction: column-reverse;
     justify-content: center;
-    gap: 32px;
   }
 
   .container-footer section p:first-child {
     display: flex;
+    margin-top: 24px;
   }
 
   .container-footer section p:last-child {
@@ -560,6 +560,7 @@
 
   .form-input {
     width: calc(100vw - 64px);
+    margin-bottom: 24px;
   }
 
   .form-input input {
